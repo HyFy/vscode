@@ -12,4 +12,6 @@ for i in range(5):
     t = threading.Thread(target=function, args=(i, ))
     threads.append(t)
     t.start()
-    t.join()
+
+    # if use join() method, will output in fixed order, or output in random order.
+    #t.join()
