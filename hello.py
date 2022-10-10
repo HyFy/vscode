@@ -1,3 +1,6 @@
+from re import L
+
+
 print((("Hello, world!")))
 
 a = [4, [5, 6], [33, [33, 434], 322]]
@@ -6,5 +9,5 @@ a = [4, [5, 6], [33, [33, 434], 322]]
 
 """
 b = 3
-print(a)
+print(((a)))
 a.index
